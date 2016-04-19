@@ -8,3 +8,5 @@ AWS_ACCESS_KEY_ID=AKIAIONJMOCATUWLFY2A AWS_SECRET_KEY=p3rMeop5ikvGNLaOtQo6xPikiC
 
 ruby
 response = Amazon::Ecs.item_search('ruby' , :response_group => 'Medium' , :search_index => 'All' , :country => 'jp')
+response = Amazon::Ecs.item_lookup('B00898JY8E' , :response_group => 'Medium' , :country => 'jp')
+4797372273
